@@ -1,3 +1,7 @@
+[![Star History Chart](https://api.star-history.com/svg?repos=thisismydisplay/azule&type=Date)](https://star-history.com/#thisismydisplay/azule&Date)
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
