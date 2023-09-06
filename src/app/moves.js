@@ -3,16 +3,20 @@
 /**
  * @type {Record<string, any[]>}
  */
-const moves = {};
+const games = {
+    '123': [
+        { x: 1, y: 2 },
+    ]
+};
 
 export async function addMove(gameId, move) {
-    if (!moves[gameId]) {
-        moves[gameId] = [];
+    if (!games[gameId]) {
+        games[gameId] = [];
     }
     
-    moves[gameId].push(move);
+    games[gameId].push(move);
 }
 
-export async function getMoves() {
-  return moves;
+export async function getGames() {
+  return games;
 }
