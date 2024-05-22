@@ -1,12 +1,12 @@
-import Image from 'next/image'
+import Image from "next/image";
+import Game from "./game";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        AZULE GAME GOES HERE!
-      </div>
-
-    </main>
-  )
+export default async function Home() {
+    return (
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+              <Game />
+            </div>
+        </main>
+    );
 }
